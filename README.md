@@ -28,8 +28,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/guptashubham-11/Tasker.git
-   cd addtask-app
+   git clone https://github.com/GuptaShubham-11/Tasker.git
+   cd tasker
    ```
 
 2. Install dependencies:
