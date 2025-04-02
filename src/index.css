@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Light Theme */
+  --color-bgLight: #f8f9fa;
+  --color-txtLight: #1a1b26;
+
+  /* Dark Theme */
+  --color-bgDark: #121212;
+  --color-txtDark: #e0e0e0;
+
+  /* Common */
+  --color-primary: #3b82f6;
+  --color-secondary: #e07a5f;
+}
+
+body {
+  background-color: var(--color-bgLight);
+  color: var(--color-txtLight);
+}
+
+.dark body {
+  background-color: var(--color-bgDark);
+  color: var(--color-txtDark);
+}
